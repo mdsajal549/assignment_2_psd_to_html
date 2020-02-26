@@ -1,0 +1,518 @@
+/*fonts*/
+@font-face {
+    src: url('../fonts/SEGOEUI.TTF');
+    font-family: SEGOEUI, sans-serif;
+
+}
+
+/*Basic setup*/
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: SEGOEUI, sans-serif;
+    font-size: 20px;
+    color: #000;
+    background-color: $fff;
+    text-rendering: optimizeLegibility;
+    text-align: center;
+
+}
+
+.row {
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 30px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+header,
+section,
+footer {
+    padding: 10px 0;
+}
+
+h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 90%;
+    margin: 10px 0;
+
+}
+
+
+
+.btn {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+/*hero section*/
+.hero {
+    background: url('img/bg-final.jpg') no-repeat center/cover;
+    height: 100vh;
+}
+
+.top-left img {
+
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 10px 15px;
+
+}
+
+.top-right a i {
+    margin-left: 850px;
+    margin-top: 50px;
+    font-size: 50px;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px 10px;
+}
+
+.top-right a i:hover {
+    color: yellow;
+}
+
+.hero h2 {
+    margin-top: 120px;
+    padding: 10px 15px;
+
+
+}
+
+
+
+/*about section*/
+
+
+.about img {
+    width: 250px;
+    float: left;
+}
+
+.about p {
+    color: #737373;
+    font-size: 80%;
+    line-height: 150%;
+    letter-spacing: .5px
+}
+
+.btn {
+
+    background-color: #ff2b4a;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px;
+
+
+}
+
+.btn:hover {
+    background-color: #f5f5;
+}
+
+/*work section*/
+.work {
+    margin-top: 30px;
+}
+
+.work h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.working {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin-left: -45px;
+}
+
+
+
+
+.working1 {
+    width: 280px;
+    height: 280px;
+    background-color: #10c6fc;
+    position: relative;
+
+}
+
+.working1 img {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+
+.working1 p {
+    color: #fff;
+    padding: 170px 50px 50px 90px;
+
+}
+
+.working2 {
+    width: 280px;
+    height: 280px;
+    background-color: #835aeb;
+    position: relative;
+
+}
+
+.working2 img {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+
+.working2 p {
+    color: #fff;
+    padding: 170px 50px 50px 70px;
+
+}
+
+.working3 {
+    width: 280px;
+    height: 280px;
+    background-color: #002453;
+    position: relative;
+
+}
+
+.working3 img {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+
+.working3 p {
+    color: #fff;
+    padding: 170px 50px 50px 90px;
+
+}
+
+.working4 {
+    width: 280px;
+    height: 280px;
+    background-color: #ff2b4a;
+    position: relative;
+
+}
+
+.working4 img {
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+
+}
+
+.working4 p {
+    color: #fff;
+    padding: 170px 50px 50px 90px;
+
+}
+
+
+/*Experience & study section*/
+
+
+
+.work-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 104, 121, .7)), to(rgba(47, 104, 121, .7))), url(img/work-bg.jpg) no-repeat center/cover;
+    background: linear-gradient(rgba(47, 104, 121, .7), rgba(47, 104, 121, .7)), url(img/work-bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.work-box {
+    text-align: left;
+    background: #4f6978;
+    padding: 50px 30px
+}
+
+.work-box h3 {
+    color: #fff;
+    font-size: 130%;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-weight: 500;
+    margin-top: 0
+}
+
+.work-box h5 {
+    font-family: Roboto;
+    font-size: 90%;
+    font-weight: 500;
+    margin: 20px 0
+}
+
+.work-box span {
+    font-family: sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 15px
+}
+
+.work-box p {
+    font-family: Roboto;
+    font-size: 80%;
+    margin: 20px 0;
+    text-align: justify
+}
+
+.work-bottom {
+    border-top: 1px solid rgba(221, 221, 221, .6)
+}
+
+.grid-container .grid-item {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px
+}
+
+/*Latest work section*/
+
+.latest-work img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.latest-work h2 {
+    padding: 20px;
+}
+
+.latest-work p {
+    padding: 20px;
+}
+
+.latest-work .five {
+    width: 400px;
+    height: 200px;
+
+}
+
+/*signature section*/
+.sign {
+    width: 1350px;
+    height: 500px;
+    padding-top: 50px;
+
+
+    background-color: #64cbc0;
+}
+
+
+.signature .img1 {
+    float: left;
+    display: block;
+    margin-left: 200px;
+    margin-top: 20px;
+
+
+}
+
+.signature .paragraph {
+
+    float: left;
+    text-align: left;
+    display: block;
+    margin-left: -70px;
+    margin-top: 90px;
+    font-size: 16px;
+
+}
+
+.signature .img2 {
+    float: left;
+    clear: left;
+    display: block;
+    margin-left: 185px;
+    margin-top: 50px;
+
+}
+
+.signature .heading {
+    float: left;
+    display: block;
+    margin-top: 80px;
+    margin-left: -165px;
+    margin-top: 120px;
+
+}
+
+.signature .spa {
+    float: left;
+    margin-top: 100px;
+    margin-left: -165px;
+    display: block;
+    margin-top: 160px;
+
+}
+
+/*message section*/
+.message {
+    width: 1350px;
+    height: 650px;
+
+    background: #2c6879;
+    color: #fff;
+}
+
+.message form {
+    float: left;
+    margin-left: 160px;
+    width: 450px;
+    height: 450px;
+    margin-top: 60px;
+
+    background: #51647d;
+}
+
+.left h2 {
+    text-align: left;
+    font-size: 16px;
+
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 15px 10px;
+
+    font-size: 12px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+form input[type="email"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #333;
+    padding: 15px 10px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+form textarea {
+    width: 100%;
+    font-size: 12px;
+    background: #51647d;
+
+}
+
+
+form .btn {
+
+    padding: 10px 35px;
+    margin-left: 300px;
+}
+
+form .text1,
+.text2,
+.email1,
+textarea {
+    background: #51647d;
+}
+
+.right {
+    margin-top: 80px;
+}
+
+.right h2 {
+    font-size: 26px;
+    margin-left: 40px;
+}
+
+.right span {
+    font-size: 16px;
+}
+
+.right {
+    margin-top: 50px;
+}
+
+/*footer section*/
+.footer {
+    background: #222;
+    color: #959595;
+}
+
+.footer ul li {
+    display: inline-block;
+
+}
+
+.social-list ul li a {
+    padding: 15px;
+}
+
+.copyright p {
+    padding-top: 10px;
+}
+
+.social-list ul li a:hover {
+    color: #fff;
+}
